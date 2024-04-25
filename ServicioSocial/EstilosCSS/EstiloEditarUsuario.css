@@ -1,0 +1,198 @@
+.Contenedor-Imagen{
+    display: flex;
+    flex-direction: column;
+}
+
+.LogoArriba{
+    width: max-content;
+    height: 130px;
+    align-self: center;
+    left: 100px;
+}
+
+.Contenedor-Imagen2{
+    display: flex;
+    flex-direction: column;
+}
+
+.LogoTec{
+    position: absolute;
+    top: 200px;
+    height: 150px;
+    left: 80%;
+}
+
+.Barra1{
+    position: absolute; 
+    top: 120px; 
+    left: 0px; 
+    width: 100%; 
+    height: 64px; 
+    background: #1E386BFF; 
+    border-radius: 0px; 
+    box-shadow: 0px 2px 5px #171a1f, 0px 0px 2px;
+}
+
+.Barra2{
+    position:absolute; 
+    top: 100%; 
+    left: 0px; 
+    width: 100%; 
+    height: 64px; 
+    background: #1E386BFF; 
+    border-radius: 0px; 
+    box-shadow: 0px 2px 5px #171a1f, 0px 0px 2px;
+}
+
+h2{
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    font-family: 'Lexend', sans-serif;
+    color: #1E386BFF;
+    font-size: 40px;
+}
+
+.FotoPerfil{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    width: 170px;
+    height: 190px;
+    flex-direction: column;
+}
+
+.Usuario{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 330px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.NomAlumno{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.FN{
+    display: flex;
+    position: absolute;
+    top: 480px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.NumControl{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 970px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.Roles{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.CorreoElectronico{
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 330px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.Telefono{
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 650px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.TelEmergencia{
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 970px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+div.Editar button{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 580px;
+    left: 1050px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 25px;
+    border: none;
+    background: #6610F2;
+    font-size: 15px;
+    color: #dadada;
+}
+
+div.Cancelar a{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 580px;
+    left: 1170px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 25px;
+    border: none;
+    background: #6610F2;
+    font-size: 15px;
+    color: #dadada;
+    text-decoration: none;
+}
+
+input{
+    width: 300px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+div.Editar button:hover{
+    border: 2px solid black;
+}
+
+div.Cancelar a:hover{
+    border: 2px solid black;
+}
+
+input:hover{
+    border: 2px solid black;
+}
